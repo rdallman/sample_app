@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "holes/new"
+
   get "courses/new"
 
   resources :users do
